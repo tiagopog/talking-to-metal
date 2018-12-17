@@ -18,9 +18,9 @@ You can install it via Homebrew:
 brew install nasm
 ```
 
-## Testing
+## Running
 
-For testing one of the programs you just need to:
+For running one of the programs you just need to:
 
 1. Assemble the source code with `nasm`:
 
