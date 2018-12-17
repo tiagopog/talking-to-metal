@@ -1,4 +1,6 @@
-# Going Low Level
+# Talking to Metal
+
+Not as good as Heavy Metal but it's a good challenge trying to master some stuff in machine (metal) code.
 
 This repo contains a collection of Assembly programs that I've been writing
 only for study and practice purpose. So please don't take it that serious :-)
