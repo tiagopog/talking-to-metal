@@ -11,6 +11,6 @@ loop:
   jmp loop     ; Continue the loop
 
 exit:
-  mov rax, 0x2000001 ; Exit  operation
-  mov rdi, rsi ; The result goes as the exit status
+  mov rax, 0x2000001 ; Exit
+  mov rdi, rsi       ; The result goes on the exit status, check it with: $ ./loop; echo $?
   syscall
