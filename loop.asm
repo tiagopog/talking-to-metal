@@ -7,7 +7,7 @@ start:
 loop:
   cmp rsi, 100 ; Compare i to 100
   je exit      ; Exit if i == 100
-  add rsi, 1   ; i++
+  inc rsi      ; i++
   jmp loop     ; Continue the loop
 
 exit:
