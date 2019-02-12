@@ -6,7 +6,7 @@
 global start
 
 start:
-  mov rax, 6       ; position = [register value]
+  mov rax, 8       ; position = {{fibonacci position e.g. 8}}
   cmp rax, 1       ; if position <= 1
   jle first_values ; then jump to "first_values"
 
@@ -16,6 +16,7 @@ start:
 
 first_values:
   mov rsi, rax ; current = position
+  jmp exit     ; jump to "exit"
 
 loop:
   mov rsi, rdi ; current = first
